@@ -10,7 +10,7 @@ function Hero() {
   })
 
   return (
-    <section className="relative min-h-screen flex items-center bg-[#050505] overflow-hidden">
+    <section className="relative min-h-screen flex items-center bg-[#050505] overflow-hidden pt-24 sm:pt-28">
       
       {/* Cyber grid background */}
       <div
@@ -20,9 +20,10 @@ function Hero() {
         bg-[size:60px_60px]"
       />
 
-      <div className="relative w-full max-w-7xl mx-auto px-6
-        grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-
+      <div
+        className="relative w-full max-w-7xl mx-auto px-6
+        grid grid-cols-1 md:grid-cols-2 gap-16 items-center"
+      >
         {/* LEFT CONTENT */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
@@ -38,7 +39,7 @@ function Hero() {
           </h1>
 
           {/* Role */}
-          <h2 className="mt-3 text-xl sm:text-2xl md:text-3xl font-semibold text-white">
+          <h2 className="mt-4 sm:mt-5 text-lg sm:text-2xl md:text-3xl font-semibold text-white leading-tight">
             Full-Stack{" "}
             <span className="text-[#00ff9c]">
               {text}
@@ -54,7 +55,8 @@ function Hero() {
           </p>
 
           {/* Buttons */}
-          <div className="mt-10 md:mt-12
+          <div
+            className="mt-10 md:mt-12
             flex flex-col sm:flex-row gap-4
             w-full sm:w-auto
             items-center md:items-start"
@@ -98,7 +100,6 @@ function Hero() {
         >
           <ProfileGlow />
         </motion.div>
-
       </div>
     </section>
   )
