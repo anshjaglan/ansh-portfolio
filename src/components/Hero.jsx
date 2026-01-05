@@ -76,7 +76,7 @@ function Hero() {
 
             {/* Resume Button */}
             <a
-              href="/resume.pdf"
+              href="/Ansh_resume.pdf"
               download
               className="w-full sm:w-auto text-center
               px-6 py-3 rounded-full
