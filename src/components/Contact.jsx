@@ -90,12 +90,12 @@ function Contact() {
     <span className="text-[#00ff9c]">▹</span>{" "}
     LinkedIn:{" "}
     <a
-      href="https://www.linkedin.com/in/ansh-jaglan/"
+      href="https://www.linkedin.com/in/anshjaglan/"
       target="_blank"
       rel="noopener noreferrer"
       className="text-white hover:text-[#00ff9c] transition"
     >
-      ansh-jaglan
+     anshjaglan
     </a>
   </li>
 
@@ -109,7 +109,7 @@ function Contact() {
       rel="noopener noreferrer"
       className="text-white hover:text-[#00ff9c] transition"
     >
-      github.com/anshjaglan
+      anshjaglan
     </a>
   </li>
 
